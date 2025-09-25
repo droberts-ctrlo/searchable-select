@@ -11,14 +11,16 @@
     "@popperjs/core": "^2.11.8",
     "@types/bootstrap": "^5.2.10",
     "@types/jquery": "^3.5.33",
-    "bootstrap": "^5.3.8",
     "jest": "^30.1.3",
     "jest-environment-jsdom": "^30.1.2",
-    "jquery": "^3.7.1",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.2",
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1"
+  },
+  "peerDependencies": {
+    "bootstrap": "<=4.0.0",
+    "jquery": "^3.7.1"
   },
   "scripts": {
     "test": "jest"

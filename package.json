@@ -19,7 +19,7 @@
     "webpack-cli": "^6.0.1"
   },
   "peerDependencies": {
-    "bootstrap": "<=4.0.0",
+    "bootstrap": ">=4.0.0",
     "jquery": "^3.7.1"
   },
   "scripts": {
